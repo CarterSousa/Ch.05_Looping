@@ -1,0 +1,24 @@
+#LOOPING!!!!!!!
+import random
+
+done = False
+while not done:
+    winner = False
+    guesses = 0
+    secret_num = random.randint(1,100)
+    while not winner:
+        guess =int(input("Guess a number between 1-100" ))
+        geusses+=1
+        if guess>secret_num:
+            print("Too HIGH!")
+        elif guess<secret_num:
+            print("too Low!")
+        else:
+            print("CORRECT! You found the secrent number in",guesses," tries!")
+            print()
+            winner = True
+
+
+
+
+
