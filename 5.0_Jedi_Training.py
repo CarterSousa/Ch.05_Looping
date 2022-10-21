@@ -7,9 +7,9 @@
      total = 0
 
      for i in range(3):
-         x = input("Enter a number: ")
-         total = total + i
-     print("The total is:", x)
+    x = input("Enter a number: ")
+        total = total + i
+        print("The total is:",x,)
   
 
 
@@ -17,10 +17,8 @@
   2. Write a Python program that will use a FOR loop to print the even
      numbers from 2 to 100, inclusive.
 '''
-
-
-
-
+for i in range(2,101,2):
+    print(i)
 
 '''
   3. Write a program that will use a WHILE loop to count from
@@ -36,8 +34,8 @@
 '''
   4. Write a program that prints a random integer from 1 to 10 (inclusive).
 '''
-
-
+import random
+h
 
 
 
