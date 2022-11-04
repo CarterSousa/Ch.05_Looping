@@ -12,18 +12,14 @@ import random
 heads = 0
 tails = 0
 cointoss = 0
-coinresult = random.randint(1,2)
-#loop
-while True:
-    cointoss +=1
 
-    # end if
-    if cointoss > 100:
-        break
+#loop
+for i in range(50):
+    coinresult = random.randint(1, 2)
     if coinresult == 1:
         heads +=1
         cointoss +=1
-    elif coinresult == 2:
+    else:
         tails +=1
         cointoss +=1
 print("Heads came up", heads, "times")
